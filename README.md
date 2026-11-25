@@ -1,6 +1,18 @@
 # An Optimization Problem for a Head-to-Head Competition of the Fantasy Football League
 
-Repository: <https://github.com/ilyandho/FPL-H2H-Optimizer>
+Repository: <https://github.com/ilyandho/FPL-H2H-Optimizer> · License: [MIT](LICENSE)
+
+**Headline result.** Over the 2024-25 season, the method was run for all 20 teams of a real FPL head-to-head league,
+against each team's real opponents. The calibrated mean-variance manager, allowed one points hit a week, won
+**239 of 568 matches against 202** for an expected-points baseline. That is **+0.195 H2H points per gameweek**
+(p < 0.001), about two extra wins a season. It finished 14.3rd in the league on average against the baseline's 16.9th.
+The real managers still did better: they finished 10.4th on average.
+
+![Cumulative H2H points against the expected-points baseline, 2024-25, 20 teams](working/figures/h2h_cumulative.png)
+
+*Cumulative H2H points against the baseline, summed over the 20 teams. The dashed amber line is the calibrated MVT
+allowed one hit a week; green is the real managers. The figure counts every gameweek. The numbers above leave out the
+92 team-weeks in which the opponent played a chip, which the automated managers do not use.*
 
 This repository holds the code, input data and notebooks behind the MSc dissertation of the same title. The
 dissertation itself is submitted separately and is not stored here. The repository holds only the parts the final
