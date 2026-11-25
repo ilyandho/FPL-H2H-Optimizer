@@ -1,0 +1,28 @@
+# Versioned: code, notebooks, docs, figures, small result summaries and the input data (structural/data/,
+# opponent_model/inputs/, direct_predictor/; CSVs over 40 MB are gzipped). Fitted models, generated caches and the
+# thesis stay local (see README, "What is not in git").
+
+# The thesis (LaTeX source, figures, PDF)
+thesis/
+
+# Fitted models and generated outputs
+structural/outputs/
+opponent_model/beta estimators/league betas/league_models_*
+opponent_model/beta estimators/opponent betas/estimates/
+*.pkl
+*.joblib
+*.nc
+
+# Run logs
+*.log
+
+# Python, Jupyter, editors, OS
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.vscode/
+.idea/
+.DS_Store

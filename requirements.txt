@@ -1,0 +1,16 @@
+# Python 3.11 (the versions the thesis results were produced with)
+numpy==2.4.6
+pandas==3.1.0
+scipy==1.17.1
+scikit-learn==1.4.2
+pymc==5.28.5
+pytensor
+numpyro==0.22.0
+jax==0.10.2
+arviz==0.23.4
+pyvinecopulib==0.7.6
+gurobipy==14.0.0   # needs a Gurobi licence (free academic licence) for problems above the size-limited trial
+matplotlib==3.11.2
+joblib==1.3.2
+ipykernel==7.4.0
+nbconvert==7.17.1
